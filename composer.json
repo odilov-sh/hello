@@ -1,7 +1,7 @@
 {
     "name": "odilov-sh/hello",
     "description": "It is my the first composer project",
-    "type": "project",
+    "type": "yii2-extension",
     "authors": [
         {
             "name": "Shukurullo Odilov",
@@ -14,7 +14,7 @@
     },
     "autoload": {
         "psr-4": {
-            "hello\\": "src"
+            "odilov\\hello\\": "src"
         }
     }
 }
